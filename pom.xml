@@ -270,7 +270,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.17</version>
           <configuration>
-            <argLine>-showversion -Xmx1g -Xms1g -XX:+PrintGCDetails</argLine>
+            <argLine>${argLine} -showversion -Xmx1g -Xms1g -XX:+PrintGCDetails</argLine>
             <failIfNoTests>false</failIfNoTests>
             <runMode>random</runMode>
             <systemProperties>
